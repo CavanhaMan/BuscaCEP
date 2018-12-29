@@ -1,4 +1,4 @@
-package com.mulataporno.ceprest.db;
+package com.cavanhaman.ceprest.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

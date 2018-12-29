@@ -1,4 +1,4 @@
-package com.mulataporno.ceprest;
+package com.cavanhaman.ceprest;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,8 +11,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.mulataporno.ceprest.db.DB;
-import com.mulataporno.ceprest.model.CEP;
+import com.cavanhaman.ceprest.db.DB;
+import com.cavanhaman.ceprest.model.CEP;
+import com.mulataporno.ceprest.R;
 
 import java.util.List;
 

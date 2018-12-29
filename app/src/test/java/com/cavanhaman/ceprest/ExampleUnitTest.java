@@ -1,7 +1,6 @@
-package com.mulataporno.ceprest;
+package com.cavanhaman.ceprest;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 /**

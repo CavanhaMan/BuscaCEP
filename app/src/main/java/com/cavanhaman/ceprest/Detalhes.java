@@ -1,12 +1,13 @@
-package com.mulataporno.ceprest;
+package com.cavanhaman.ceprest;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.mulataporno.ceprest.db.DB;
-import com.mulataporno.ceprest.model.CEP;
+import com.cavanhaman.ceprest.db.DB;
+import com.cavanhaman.ceprest.model.CEP;
+import com.mulataporno.ceprest.R;
 
 /**
  * Created by Digitador01 on 21/11/2015.

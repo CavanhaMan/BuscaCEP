@@ -1,11 +1,11 @@
-package com.mulataporno.ceprest.db;
+package com.cavanhaman.ceprest.db;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.mulataporno.ceprest.model.CEP;
+import com.cavanhaman.ceprest.model.CEP;
 
 import java.util.ArrayList;
 import java.util.List;

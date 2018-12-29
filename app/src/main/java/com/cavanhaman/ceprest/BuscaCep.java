@@ -1,4 +1,4 @@
-package com.mulataporno.ceprest;
+package com.cavanhaman.ceprest;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -12,9 +12,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.mulataporno.ceprest.db.DB;
-import com.mulataporno.ceprest.library.HTTPDataHandler;
-import com.mulataporno.ceprest.model.CEP;
+import com.cavanhaman.ceprest.db.DB;
+import com.cavanhaman.ceprest.library.HTTPDataHandler;
+import com.cavanhaman.ceprest.model.CEP;
+import com.mulataporno.ceprest.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

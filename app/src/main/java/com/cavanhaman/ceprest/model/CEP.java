@@ -1,4 +1,4 @@
-package com.mulataporno.ceprest.model;
+package com.cavanhaman.ceprest.model;
 
 /**
  * Created by Digitador01 on 20/11/2015.
