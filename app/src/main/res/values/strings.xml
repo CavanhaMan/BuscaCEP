@@ -3,4 +3,98 @@
     <string name="app_histori">Histórico</string>
     <string name="app_busca">Buscar CEP</string>
     <string name="app_detalhes">Detalhes</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">igrejasonline@outlook.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fechar">Fechar</string>
+    <string name="abrir">Abrir</string>
+    <string name="txigreja">Igrejas</string>
+    <string name="txagenda">Agenda de Eventos</string>
+    <string name="txcalendario">Calendário de Atividades</string>
+    <string name="igrejamail">igrejasonline@outlook.com</string>
+
+
+    <string name="main_activity">Igrejas Online</string>
+    <string name="app_texto">Você sempre ligado ao acontece na igreja!</string>
+    <string name="app_logo">Você sempre ligado ao acontece na igreja!</string>
+    <string name="title_activity_entidade">Entidade</string>
+
+
+    <string name="entidade">Organização</string>
+    <string name="descri_entidade">Cadastre um grupo da sua igreja, tais como: grupo de jovens, banda, coral, etc. </string>
+    <string name="nome_entidade"> Nome: </string>
+    <string name="responsavel_entidade">Buscar Responsável</string>
+    <string name="cadastro">Cadastrar</string>
+    <string name="evento">Evento</string>
+    <string name="nm_evento">Nome do Evento</string>
+    <string name="dtIni_evento">Data início</string>
+    <string name="dtFim_evento">Data Fim</string>
+    <string name="hrIni_evento">Hora início</string>
+    <string name="hrFim_evento">Hora Fim</string>
+    <string name="publico_evento">Público do evento</string>
+    <string name="public_evento">Público</string>
+    <string name="descricao_evento">Descricao do evento</string>
+    <string name="descri_evento">Cadastre um eveto de sua igreja.</string>
+    <string name="local_evento">Local do evento</string>
+    <string name="responsavel_evento">Responsavel do evento</string>
+    <string name="telefone_evento">Telefone do evento</string>
+    <string name="endereco_evento">Endereço do evento</string>
+    <string name="entidade_evento">Grupo do evento</string>
+    <string name="local">Local do evento</string>
+    <string name="descri_local">Informe um nome para o local do evento</string>
+    <string name="nome_local">Nome</string>
+    <string name="nm_local">Nome do local</string>
+    <string name="responsavel">Responsavel</string>
+    <string name="descri_responsavel">Cadastre um responsável para administrar os eventos de sua igreja</string>
+    <string name="nm_responsavel">Nome do responsavel</string>
+    <string name="usuario_responsavel">Usuario</string>
+    <string name="senha_responsavel">Senha</string>
+    <string name="cpf_responsavel">Cpf</string>
+    <string name="email_responsavel">Email</string>
+    <string name="title_activity_eventos">Eventos</string>
+    <string name="title_activity_igrejas">Igrejas</string>
+    <string name="title_activity_entidades">Entidades</string>
+    <string name="igreja">Igreja</string>
+    <string name="nome">Nome:</string>
+    <string name="nome_da_igreja">Nome da igreja</string>
+    <string name="cnpj">CNPJ: </string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="cep">CEP:</string>
+    <string name="complemento">Complemento:</string>
+    <string name="bairro">Bairro:</string>
+    <string name="logradouro">Logradouro:</string>
+    <string name="hint_telefone">Telefone (XX) xxxx-xxxx</string>
+    <string name="novoResponsavel">O responsável não está na lista? Digite o seu nome aqui.</string>
+    <string name="cidade">Cidade:</string>
+    <string name="proximo">Próximo</string>
+    <string name="voltar">Voltar</string>
+    <string name="nao">Não</string>
+    <string name="semanalmente">Semanalmente</string>
+    <string name="mensalmente">Mensalmente</string>
+    <string name="anualmente">Anualmente</string>
+    <string name="title_activity_listaeventos">listaeventos</string>
+    <string name="title_activity_listaigrejas">listaigrejas</string>
+    <string name="title_activity_listacalendarios">listacalendarios</string>
+    <string name="title_activity_listaentidades">listaentidades</string>
+    <string name="lista_de_igrejas">Lista de Igrejas</string>
+    <string name="title_activity_cad_usuario">activity_cad_usuario</string>
+
+    <!-- Esta lista alimenta o spinner da activity_evento_cad
+         para selecionar se um evento se repetirá e como.       -->
+    <string-array name="repete">
+        <item>Não</item>
+        <item>Semanalmente</item>
+        <item>Quinzenalmente</item>
+        <item>Mensalmente</item>
+        <item>Bimestralmente</item>
+        <item>Semestralmente</item>
+        <item>Anualmente</item>
+    </string-array>
 </resources>
+

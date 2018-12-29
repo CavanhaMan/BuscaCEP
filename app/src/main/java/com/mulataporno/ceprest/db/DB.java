@@ -27,9 +27,7 @@ public class DB {
 
 
     private DBCore dbCore;
-
     private SQLiteDatabase db;
-
     private Context context;
 
     public DB(Context context) {
@@ -58,8 +56,14 @@ public class DB {
                 new String[]{String.valueOf(_id)}, null, null, null, null);
         if (cursor != null)
             cursor.moveToFirst();
-        CEP cep = new CEP(Integer.parseInt(cursor.getString(0)), cursor.getString(1), cursor.getString(2),
-                cursor.getString(3), cursor.getString(4), cursor.getString(5), cursor.getString(6), cursor.getString(7));
+        CEP cep = new CEP(Integer.parseInt(cursor.getString(0)),
+                                           cursor.getString(1),
+                                           cursor.getString(2),
+                                           cursor.getString(3),
+                                           cursor.getString(4),
+                                           cursor.getString(5),
+                                           cursor.getString(6),
+                                           cursor.getString(7));
         return cep;
     }
 

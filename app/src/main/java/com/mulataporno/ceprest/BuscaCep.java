@@ -29,12 +29,10 @@ public class BuscaCep extends AppCompatActivity {
 
     ProgressDialog progressDialog;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_busca_cep);
-
 
         final Button btnBuscarCEP = (Button) findViewById(R.id.btnChamaBuscaCEP);
         final EditText editTextCep = (EditText) findViewById(R.id.edtCep);
@@ -42,9 +40,7 @@ public class BuscaCep extends AppCompatActivity {
         btnBuscarCEP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 if(!TemConexao()){
-
                     CEP cep = new CEP();
                     cepEntrada = editTextCep.getText().toString();
                     editTextCep.setText("");
@@ -56,7 +52,6 @@ public class BuscaCep extends AppCompatActivity {
                     }else{
                         Toast.makeText(getApplicationContext(), "Por favor informe um CEP válido.", Toast.LENGTH_LONG).show();
                     }
-
                 }else{
                     Toast.makeText(getApplicationContext(), "Por favor verifique a conectividade de seu dispositivo.", Toast.LENGTH_LONG).show();
                 }
@@ -134,27 +129,29 @@ public class BuscaCep extends AppCompatActivity {
                     final TextView txtComplemento = (TextView) findViewById(R.id.txtBC_complemento);
                     final TextView txtBairro = (TextView) findViewById(R.id.txtBC_bairro);
                     final TextView txtLocalidade = (TextView) findViewById(R.id.txtBC_localidade);
+                    final TextView txtEstado = (TextView) findViewById(R.id.txtBC_estado);
                     final TextView txtIbge = (TextView) findViewById(R.id.txtBC_ibge);
 
 
-                    txtCep.setText("CEP "+cep);
+                    txtCep.setText(cep);
                     if(logradouro != " "){
-                        txtLogradouro.setText("LOGRA. "+logradouro);
+                        txtLogradouro.setText(logradouro);
                     }else{
                         txtLogradouro.setText("SEM LOGRADOURO");
                     }
                     if(complemento != " "){
-                        txtComplemento.setText("COMPL. "+complemento);
+                        txtComplemento.setText(complemento);
                     }else{
                         txtComplemento.setText("SEM COMPLEMENTO");
                     }
                     if(bairro != " "){
-                        txtBairro.setText("BAIRRO  "+bairro);
+                        txtBairro.setText(bairro);
                     }else{
                         txtBairro.setText("SEM BAIRRO");
                     }
-                    txtLocalidade.setText(localidade + " / " + uf);
-                    txtIbge.setText("IBGE "+ibge);
+                    txtLocalidade.setText(localidade);
+                    txtEstado.setText(uf);
+                    txtIbge.setText(ibge);
 
                 }catch(JSONException e){
                     e.printStackTrace();

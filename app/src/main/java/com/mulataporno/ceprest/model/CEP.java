@@ -26,7 +26,6 @@ public class CEP {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -34,7 +33,6 @@ public class CEP {
     public String getCep() {
         return cep;
     }
-
     public void setCep(String cep) {
         this.cep = cep;
     }
@@ -42,7 +40,6 @@ public class CEP {
     public String getLogradouro() {
         return logradouro;
     }
-
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
     }
@@ -50,7 +47,6 @@ public class CEP {
     public String getComplemento() {
         return complemento;
     }
-
     public void setComplemento(String complemento) {
         this.complemento = complemento;
     }
@@ -58,7 +54,6 @@ public class CEP {
     public String getBairro() {
         return bairro;
     }
-
     public void setBairro(String bairro) {
         this.bairro = bairro;
     }
@@ -66,7 +61,6 @@ public class CEP {
     public String getLocalidade() {
         return localidade;
     }
-
     public void setLocalidade(String localidade) {
         this.localidade = localidade;
     }
@@ -74,7 +68,6 @@ public class CEP {
     public String getUf() {
         return uf;
     }
-
     public void setUf(String uf) {
         this.uf = uf;
     }
@@ -82,7 +75,6 @@ public class CEP {
     public String getIbge() {
         return ibge;
     }
-
     public void setIbge(String ibge) {
         this.ibge = ibge;
     }

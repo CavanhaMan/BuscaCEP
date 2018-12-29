@@ -24,6 +24,7 @@ public class Detalhes extends AppCompatActivity {
         TextView txtComplemento = (TextView) findViewById(R.id.txtDT_complemento);
         TextView txtBairro = (TextView) findViewById(R.id.txtDT_bairro);
         TextView txtLocalidade = (TextView) findViewById(R.id.txtDT_localidade);
+        TextView txtEstado = (TextView) findViewById(R.id.txtDT_estado);
         TextView txtibge = (TextView) findViewById(R.id.txtDT_ibge);
 
         if(intent != null){
@@ -34,12 +35,13 @@ public class Detalhes extends AppCompatActivity {
                 DB db = new DB(Detalhes.this);
 
                 CEP cep = db.getSingleCep(Integer.parseInt(itemId));
-                txtCep.setText("CEP " + cep.getCep());
-                txtLogradouro.setText("LOGRA. " + cep.getLogradouro());
-                txtComplemento.setText("COMPL. " + cep.getComplemento());
-                txtBairro.setText("BAIRRO  " + cep.getBairro());
-                txtLocalidade.setText(cep.getLocalidade() +" / "+ cep.getUf());
-                txtibge.setText("IBGE "+cep.getIbge());
+                txtCep.setText(cep.getCep());
+                txtLogradouro.setText(cep.getLogradouro());
+                txtComplemento.setText(cep.getComplemento());
+                txtBairro.setText(cep.getBairro());
+                txtLocalidade.setText(cep.getLocalidade());
+                txtLocalidade.setText(cep.getUf());
+                txtibge.setText(cep.getIbge());
             }
         }
 

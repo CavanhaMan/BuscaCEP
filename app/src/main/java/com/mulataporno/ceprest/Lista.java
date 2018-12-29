@@ -31,12 +31,8 @@ public class Lista extends AppCompatActivity {
         setContentView(R.layout.activity_lista);
 
         listView = (ListView) findViewById(R.id.listView);
-
         db = new DB(this);
-
         list = db.listarPlacas();
-
-
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
 
         listView.setAdapter(adapter);
