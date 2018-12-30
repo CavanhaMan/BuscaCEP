@@ -11,7 +11,8 @@ import com.mulataporno.ceprest.R;
 
 /**
  * Created by Digitador01 on 21/11/2015.
- */
+ * Edited by CavanhaMan on 29/12/2018.
+ * */
 public class Detalhes extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ public class Detalhes extends AppCompatActivity {
                 txtComplemento.setText(cep.getComplemento());
                 txtBairro.setText(cep.getBairro());
                 txtLocalidade.setText(cep.getLocalidade());
-                txtLocalidade.setText(cep.getUf());
+                txtEstado.setText(cep.getUf());
                 txtibge.setText(cep.getIbge());
             }
         }
